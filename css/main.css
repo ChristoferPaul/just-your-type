@@ -16,7 +16,7 @@ h2 {
 
 h3 {
   font-family: Montserrat, sans-serif;
-  text-shadow: 2px 2px 2px #00ffee;
+  text-shadow: 2px 2px 2px #0fe;
 }
 
 p {
@@ -49,5 +49,5 @@ p {
 }
 
 .mint:hover {
-  color: #00ffee;
+  color: #0ffe;
 }
