@@ -1,18 +1,22 @@
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
   background-color: #000;
   text-align: center;
   display: block;
 }
 
+h1 {
+  font-family: Montserrat, sans-serif;
+  text-shadow: 2px 2px 2px  red;
+}
+
 h2 {
   font-family: Montserrat, sans-serif;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop (0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  color: transparent;
-  -webkit-background-clip: text;
+  text-shadow: 2px 2px 2px #f2f;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  text-shadow: 2px 2px 2px #00ffee;
 }
 
 p {
@@ -24,21 +28,19 @@ p {
   padding-top: 80px;
 }
 
-/*
 .start {
-  color: #f7b267;
+  color: #ff8c00;
 }
 
 .mid {
-  color: #f79d65;
+  color: #d000ff;
 }
 
 .end {
-  color: #f4845f;
+  color: #00b6ff;
 }
-*/
 
-span:hover {
+.sweet:hover {
   color: #f2f;
 }
 
@@ -46,6 +48,6 @@ span:hover {
   color: red;
 }
 
-.brown:hover {
-  color: #f4663e;
+.mint:hover {
+  color: #00ffee;
 }
